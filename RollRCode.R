@@ -131,3 +131,5 @@ means7 <- aggregate(Out7$Length,
 plot(as.numeric(as.character(means7$Group.1)), means7$x, type = "b", pch = 16, ylim = c(5,14))
 
 Out7$Dose <- order(as.numeric(Out7$Dose))
+
+                   
